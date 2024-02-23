@@ -1,0 +1,24 @@
+/*Css made by Microsoft Copilot*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #f0f0f0;
+}
+
+.link{
+    text-decoration: none;
+    height: 240px;
+}
+
+.link > *{
+    height: 100%;
+}

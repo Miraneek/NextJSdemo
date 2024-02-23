@@ -1,0 +1,40 @@
+/*Css made by Microsoft Copilot*/
+
+.container {
+    background-color: #1a2633;
+    border: 2px solid #7a9fbf;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container h1 {
+    color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container span {
+    display: block;
+    color: #e0e1dd;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.container p {
+    color: #e0e1dd;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
