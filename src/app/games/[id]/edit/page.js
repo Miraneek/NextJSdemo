@@ -1,3 +1,4 @@
+"use client";
 import styles from "./edit.module.css"
 import Game from "@/components/games/Game";
 import {games} from "@/app/games/page";
